@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake It</title>
+    <script src="app.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h>Let's gooooooooo</h>
+
+    <div class="board" id="snake-board">
+    </div>
+    <div class="buttons">
+    <button style="flex: center;" onclick="createBoard()"> Start the Game</button>
+    <button style="margin: auto;" onclick="feedSnake()"> Feed the Snake</button>
+    <button style="margin: auto;" onclick="resetBoard();createBoard()"> PlayAgain</button>
+    <button style="margin: auto;" onclick="createHurdle();"> Increase Difficulty</button>
+    </div>
+
+</body>
+</html>
