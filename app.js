@@ -226,7 +226,7 @@ let hurdles = new Set()
 const createHurdle = () => {
     let alongX = Math.random() > 0.5 ? 1 : 0
     if(alongX){
-        console.log("Allong x")
+        console.log("Along x")
         let x = Math.floor(Math.random()*boardHeight)
         let y1 = Math.floor(Math.random()*boardWidth)
         let y2 = y1+Math.floor(Math.random()*(boardWidth-y1)/2)
@@ -238,7 +238,7 @@ const createHurdle = () => {
         }
         return
     }
-    console.log("Allong x")
+    console.log("Along x")
 
     let x1 = Math.floor(Math.random()*boardHeight)
     let x2 = x1+Math.floor(Math.random()*(boardHeight-x1)/2)
